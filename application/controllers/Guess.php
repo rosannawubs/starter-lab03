@@ -6,6 +6,7 @@
  * and open the template in the editor.
  */
 
+/// a new controller called guess
 class Guess extends Application {
     function __construct() {
         parent::__construct();
@@ -15,6 +16,7 @@ class Guess extends Application {
     //  The normal pages
     //-------------------------------------------------------------
 
+        /// will pull up the 4th author's data
     function index() {
         $this->data['pagebody'] = 'justone';    // this is the view we want shown
         // build the list of authors, to pass on to our view

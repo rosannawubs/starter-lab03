@@ -18,6 +18,7 @@ class Welcome extends Application {
     //  The normal pages
     //-------------------------------------------------------------
 
+    /// will pull up all author's data
     function index() {
         $this->data['pagebody'] = 'homepage';    // this is the view we want shown
         // build the list of authors, to pass on to our view
@@ -31,6 +32,7 @@ class Welcome extends Application {
         $this->render();
     }
     
+    /// will pull up the 2nd author's data
     function shucks() {
         $this->data['pagebody'] = 'justone';    // this is the view we want shown
         // build the list of authors, to pass on to our view

@@ -8,6 +8,7 @@
  *
  * ------------------------------------------------------------------------
  */
+/// welcome is a new controller (another) inside last folder
 class Welcome extends Application {
 
     function __construct() {
@@ -18,6 +19,7 @@ class Welcome extends Application {
     //  The normal pages
     //-------------------------------------------------------------
 
+    /// will pull up the last author's data
     function index() {
         $this->data['pagebody'] = 'justone';    // this is the view we want shown
         // build the list of authors, to pass on to our view

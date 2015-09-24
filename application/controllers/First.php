@@ -6,7 +6,7 @@
  * and open the template in the editor.
  */
 
-
+/// a controller called First
 class First extends Application {
     function __construct() {
         parent::__construct();
@@ -16,6 +16,7 @@ class First extends Application {
     //  The normal pages
     //-------------------------------------------------------------
 
+    /// will pull up the first author's data
     function index() {
         $this->data['pagebody'] = 'justone';    // this is the view we want shown
         // build the list of authors, to pass on to our view
@@ -28,6 +29,7 @@ class First extends Application {
         $this->render();
     }
     
+    /// will pull up the 1st author's data
     function zzz() {
         $this->data['pagebody'] = 'justone';    // this is the view we want shown
         // build the list of authors, to pass on to our view
@@ -40,6 +42,7 @@ class First extends Application {
         $this->render();
     }
     
+    /// will pull up the 3rd author's data
     function gimme() {
         $this->data['pagebody'] = 'justone';    // this is the view we want shown
         // build the list of authors, to pass on to our view
